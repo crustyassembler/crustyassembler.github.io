@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>Erik's Cool Blog - JavaScript</title>
+        <link rel="stylesheet" href="https://crustyassembler.github.io/theme/css/main.css" />
+        <link href="https://crustyassembler.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Erik's Cool Blog Atom Feed" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="https://crustyassembler.github.io/">Erik's Cool Blog </a></h1>
+                <nav><ul>
+                    <li><a href="https://crustyassembler.github.io/category/software-development.html">Software Development</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="https://crustyassembler.github.io/neocities-rip.html">My Website Journey</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2016-10-05T00:00:00+01:00">
+                Published: Wed 05 October 2016
+        </abbr>
+		<br />
+        <abbr class="modified" title="2016-10-05T00:00:00+01:00">
+                Updated: Wed 05 October 2016
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="https://crustyassembler.github.io/author/erik-kaighan.html">Erik Kaighan</a>
+        </address>
+<p>In <a href="https://crustyassembler.github.io/category/software-development.html">Software Development</a>.</p>
+<p>tags: <a href="https://crustyassembler.github.io/tag/html.html">HTML</a> <a href="https://crustyassembler.github.io/tag/css.html">CSS</a> <a href="https://crustyassembler.github.io/tag/javascript.html">JavaScript</a> </p>
+</footer><!-- /.post-info --><p>Today I needed a template in order to accelerate the development process of a website I was required to produce under a relatively tight timescale.</p>
+<p>I opted to use my own work rather than that produced my someone else and as such my journey to duplicate and strip down a website of my own design began.</p>
+<p>The first step required duplicating the complete directory structure of the website, and populating it with the necessary files. Fortunately wget can be used to completely automate and simplify the entire process.</p>
+<div class="highlight"><pre><span></span>wget -rnH https://te1eph0ne.neocities.org
+</pre></div>
+
+
+<p>At this point I had the entire directory structure at my fingertips and decided to fire up a web browser to test it out.</p>
+<p>I wasn't overly satisfied with the results.</p>
+<p>Unfortunately it didn't occur to me at this point to screenshot the incident, so I'll just describe it instead as I'm having trouble reverting the Git repository in order to resurrect the issue.</p>
+<p>What had essentially happened was that for some reason on my neocities site, I had prepended every path with a / which clearly denotes a file in the server's root directory, which was quite clearly incorrect in this instance and most others.</p>
+<p>The fallout of this was the server being unable to locate various images, fonts, stylesheets and other necessary resources, causing the website to load quickly, but to be presented in an aesthetically incomplete manner.</p>
+<p>I then spent the required time rectifying the issue, and finally succeeded in both getting the resources to be referenced and served as necessary.</p>
+<p>At this point it was simply a matter of fine-tuning the necessary elements, removing any unrequired DOM elements and populating the page with any relevant information and resources.</p>                </article>
+            </aside><!-- /#featured -->
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>blogroll</h2>
+                        <ul>
+                            <li><a href="http://getpelican.com/">Pelican</a></li>
+                            <li><a href="http://python.org/">Python.org</a></li>
+                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                            <li><a href="#">You can modify those links in your config file</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="https://crustyassembler.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                            <li><a href="#">You can add links in your config file</a></li>
+                            <li><a href="#">Another social link</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>
