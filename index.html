@@ -15,13 +15,73 @@
         <header id="banner" class="body">
                 <h1><a href="https://crustyassembler.github.io/">Erik's Cool Blog </a></h1>
                 <nav><ul>
+                    <li><a href="https://crustyassembler.github.io/category/security.html">Security</a></li>
                     <li><a href="https://crustyassembler.github.io/category/software-development.html">Software Development</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="https://crustyassembler.github.io/roles-and-responsibilities.html">Project Roles & Responsibilities</a></h1>
+                    <h1 class="entry-title"><a href="https://crustyassembler.github.io/two-factor-auth.html">2FA: What it is and why you (totally) need it</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2016-11-07T08:04:00+00:00">
+                Published: Mon 07 November 2016
+        </abbr>
+		<br />
+        <abbr class="modified" title="2016-11-07T08:04:00+00:00">
+                Updated: Mon 07 November 2016
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="https://crustyassembler.github.io/author/erik-kaighan.html">Erik Kaighan</a>
+        </address>
+<p>In <a href="https://crustyassembler.github.io/category/security.html">Security</a>.</p>
+<p>tags: <a href="https://crustyassembler.github.io/tag/security.html">Security</a> </p>
+</footer><!-- /.post-info --><p>Two factor authentication is a method of securing computer systems by
+requiring any authorised user to provide two pieces of valid evidence
+in order to be granted access.</p>
+<p>The evidence required is generally defined as something the user knows
+and something the user has. Or to put it more elegantly,</p>
+<p><blockquote class="twitter-tweet" align="center"><a href="https://twitter.com/mattblaze/status/792443648520650752">Tweet of mattblaze/792443648520650752</a></blockquote></p>
+<p>While two factor authentication can make it more difficult for an
+attacker to access a computer system protected by two-factor
+authentication without access to the additional credentials, it may be
+possible for the attacker to harvest the required information via a
+range of social engineering attacks, one example of which being
+phishing.</p>
+<p>In a sophisticated spear-phishing attack, it would be possible for an
+attacker to harvest all of the required data, immediately utilising any
+required 2FA credentials, granting them immediate access to the
+compromised system.</p>
+<p>Two-factor authentication is also more susceptible to the loss of any
+required authentication tokens, especially when they take a pysical
+form, which is more likely to cause a legitimate user to be locked out
+of their own online accounts or computer systems.</p>
+<p>Due to the shortcomings of the implementations of current 2FA systems I
+generally avoid using it where I can. By utilising strong, unique
+sets of data to register each individual online identity I control, I
+severely limit the impact that the compromise of a single one of those
+identities is likely to have on any other.</p>
+<p>Whilst practicing good operational security can be a labourious task,
+it is becoming incresingly pertinent for even the average person to
+consider, as surveillence is more constant and relentless than ever
+before, and is only going to continue getting worse, and as such it is
+naive to think that enabling a two-factor authentication service
+controlled by yet another third party will help to secure your data at
+all and you generally won't find me singing its praises.</p><script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="https://crustyassembler.github.io/roles-and-responsibilities.html" rel="bookmark"
+                           title="Permalink to Project Roles & Responsibilities">Project Roles & Responsibilities</a></h1>
+                </header>
+
+                <div class="entry-content">
 <footer class="post-info">
         <abbr class="published" title="2016-10-31T10:10:00+00:00">
                 Published: Mon 31 October 2016
@@ -36,285 +96,10 @@
         </address>
 <p>In <a href="https://crustyassembler.github.io/category/software-development.html">Software Development</a>.</p>
 <p>tags: <a href="https://crustyassembler.github.io/tag/work.html">Work</a> <a href="https://crustyassembler.github.io/tag/software-development.html">Software Development</a> </p>
-</footer><!-- /.post-info --><p>Documentation provided by my employer claims that successful projects
-are delivered by a "One Team" approach, incorporating a DSDM-based
-project management plan within the organisation.</p>
-<p>The roles defined in the project management plan are stated to be
-flexible in the sense that they may be carried out either internally or
-externally as appropriate. The roles, and consequently their associated
-responsibilities may also be shared by multiple individuals.</p>
-<p>The following project role diagram aims to illustrate the
-relationships between individual roles and responsibilities documented
-within the DSDM development lifecycle specification.</p>
-<p><img alt="Diagram illustrating the DSDM Team model" src="https://crustyassembler.github.io/images/7a - The DSDM Team model.png" /></p>
-<p>It is stated that a project is goverened by the head, which generally
-includes the roles of business/project sponsor, improvement champion,
-project manager and technical co-ordinator.</p>
-<p>The various roles generally involved in the project board are
-documented as follows:</p>
-<h2>Business Sponsor</h2>
-<p>The Business Sponsor is the person or entity responsible for providing
-the funding necessary for any concieved project to be seen through and
-is as such ultimately accountable for the realisation of that proposed
-project.</p>
-<h3>Responsibilities</h3>
-<ul>
-<li>
-<p>Providing any support necessary for the project team
-to successfully complete the project</p>
-</li>
-<li>
-<p>Determination and production of the project's underlying development
-architecture</p>
-</li>
-<li>
-<p>To govern any potential risks involved with the project</p>
-</li>
-<li>
-<p>Engage and govern the communication between the development team and
-any project stakeholders</p>
-</li>
-<li>
-<p>Ensure that the project stays aligned with the company roadmap
-throughout its development lifecycle</p>
-</li>
-</ul>
-<h2>Improvement Champion</h2>
-<p>The Improvement Champion is responsible for the delivery of business
-change and as a result directly supports the Business Sponsor.</p>
-<h3>Responsibilities</h3>
-<ul>
-<li>
-<p>Contributing to key requirement, design and review sessions</p>
-</li>
-<li>
-<p>Handling change management. Converting any project vision into a
-working plan and directing the implementation</p>
-</li>
-<li>
-<p>Ensuring collaboration between those responsible for fulfilling the
-various management roles and any stakeholders</p>
-</li>
-<li>
-<p>Providing the business vision definition for the project</p>
-</li>
-<li>
-<p>Handling the approval of proposed changes in the requirements
-definition</p>
-</li>
-</ul>
-<h2>Project Manager</h2>
-<p>The project manager is responsible for the day-to-day running of the
-project. The manager is accountable to the rest of the project board
-and is expected to conduct regular project assessments and to report
-any relevant findings to the project board.</p>
-<h3>Responsibilities</h3>
-<ul>
-<li>
-<p>Managing project configuration</p>
-</li>
-<li>
-<p>Manage problems from the solutions development team as they emerge</p>
-</li>
-<li>
-<p>Maintain communication with senior management and project governance
-authorities throughout the project</p>
-</li>
-<li>
-<p>Maintaining high level project and stage plans</p>
-</li>
-<li>
-<p>Resourcing specialists wherever necessary</p>
-</li>
-</ul>
-<h2>Technical Co-Ordinator</h2>
-<p>The technical co-ordinator is accountable for all technical solutions
-design within the team. They are also responsible for ensuring that
-the proposed solution is compliant with the design authority and any
-other associated standards.</p>
-<h3>Responsibilities</h3>
-<ul>
-<li>
-<p>Agreeing on and controlling the development of necessary technical
-architecture</p>
-</li>
-<li>
-<p>Advising on an co-ordinating the technical activities of each
-involved team</p>
-</li>
-<li>
-<p>Identifying potential risks associated with any technical and
-architectural design choices</p>
-</li>
-<li>
-<p>Handling technical aspects of transitioning the produced solution
-into a live environment</p>
-</li>
-<li>
-<p>Resolve technical differences between technical team members</p>
-</li>
-</ul>
-<p>The body of the DSDM project role diagram depicts all of the people or
-entities pysically responsible for the production of the proposed
-project and is actively directed by those responsible for fulfilling
-the aforementioned management roles.</p>
-<h2>Team Leader</h2>
-<p>The team leader is a central role that aims to ensure that the delivery
-team is working effectively and to communicate progress with project
-governance.</p>
-<h3>Responsibilities</h3>
-<ul>
-<li>
-<p>Focusing the team to ensure appropriate and timely delivery of any
-agreed solutions</p>
-</li>
-<li>
-<p>To encourage participation and co-operation between team members to
-ensure the best possible outcome for the project within any provided
-boundaries</p>
-</li>
-<li>
-<p>Ensuring that the iterative development process is adhered to by the
-team at all times</p>
-</li>
-<li>
-<p>To monitor the day-to-day development of the team itself through all
-team activities</p>
-</li>
-<li>
-<p>To organise and run team meetings as often as is necessary and in a
-timely and focused manner</p>
-</li>
-</ul>
-<h2>Business Ambassador</h2>
-<p>The business ambassador is a support role within the team that aims to
-provide a business perspective for all decisions potentially related to
-the solution's fitness for business purpose.</p>
-<p>The perspective provided by the business ambassador is generally
-derived from that of any users of the produced solution.</p>
-<h3>Responsibilities</h3>
-<ul>
-<li>
-<p>Providing a business oriented view in all requirement, design and
-review sessions</p>
-</li>
-<li>
-<p>To provide a business perspective for all day-to-day project
-decisions</p>
-</li>
-<li>
-<p>Providing daily assurance that the project is evolving as it should
-be</p>
-</li>
-<li>
-<p>Ensuring the adequacy of any training carried out</p>
-</li>
-<li>
-<p>Communicating with, and involving users with the development process
-as necessary</p>
-</li>
-</ul>
-<h2>Business/Process Analyst</h2>
-<p>The business analyst aims to develop any project requirements, user
-storyboards and benefits. They are intended to develop and design
-business process improvement provisions</p>
-<h3>Responsibilities</h3>
-<ul>
-<li>
-<p>Enforcing a high, timely standard of communication between between
-business and technical participants in the project</p>
-</li>
-<li>
-<p>Managing the design, development and distribution of all
-products and documentation related to the project's business
-requirement specifications</p>
-</li>
-<li>
-<p>Ensuring that all of the implications of any day-to-day decisions
-are taken into account</p>
-</li>
-</ul>
-<h2>Business Testers</h2>
-<p>Business testers aim to test the delivered solution based on any
-requirements, either functional or otherwise. Ensuring that the project
-meets the proposed standard and works as intended from the customer's
-perspective.</p>
-<h2>Service Managers</h2>
-<p>The service manager is a role that aims to both run and improve the
-delivered solution. All responsibilities involved with the operation of
-the service are those of the service managers.</p>
-<p>It is important that a service manager asks questions about any
-relevant risks or fears that they may have that are associated with the
-delivered product.</p>
-<h2>Solution Developer</h2>
-<p>Designs and develops the solution under guidance of the project's
-technical co-ordinators. They interpret the project requirement
-specification and translate it into a functional, working solution as
-required.</p>
-<h3>Responsibilities</h3>
-<ul>
-<li>
-<p>To work with business roles and solution testers to iteratively
-develop a functional, deployable solution</p>
-</li>
-<li>
-<p>Produce any plans required for the controlled and professional
-development of the proposed solution</p>
-</li>
-<li>
-<p>To record and interpret any changes to the project requirements or
-any information likely to impact the development process of the
-solution</p>
-</li>
-<li>
-<p>Participating in the quality assurance work required to ensure that
-the delivered product performs as it should</p>
-</li>
-<li>
-<p>To test their own work prior to any independent testing process</p>
-</li>
-</ul>
-<h2>Service Transition Manager</h2>
-<p>The service transition manager is a role that aims to ensure the
-effective transition from project to service and support. They ensure
-that the service is ready for change, including any associated
-documentation and training.</p>
-<h2>Solution Tester</h2>
-<p>Solution testers ensure that the delivered solution meets all proposed
-technical and functional requirements from a technical perspective. The
-solution testers and fully integrated with the solution development
-team and work closely to ensure that all technical requirements are met
-either during or following development.</p>
-<h3>Responsibilities</h3>
-<ul>
-<li>
-<p>To work with business roles to define test cases for the solution as
-it contines to evolve, ensuring that old features are continually
-regression tested in addition to any newly developed ones</p>
-</li>
-<li>
-<p>To carry out all necessary technical testing of the solution and its
-features</p>
-</li>
-<li>
-<p>To keep the team leader informed on the results of all testing as is
-appropriate</p>
-</li>
-<li>
-<p>Creating test products, such as plans, test cases and logs of any
-past testing</p>
-</li>
-<li>
-<p>Assisting the business ambassadors and advisors to ensure that it is
-possible for them to accurately validate whether or not the solution is
-fit for purpose at any one moment in time</p>
-</li>
-</ul>                </article>
-            </aside><!-- /#featured -->
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
+</footer><!-- /.post-info -->                <p>What people are supposed to do</p>
+                <a class="readmore" href="https://crustyassembler.github.io/roles-and-responsibilities.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
 
             <li><article class="hentry">
                 <header>
@@ -376,7 +161,6 @@ fit for purpose at any one moment in time</p>
                             <li><a href="http://getpelican.com/">Pelican</a></li>
                             <li><a href="http://python.org/">Python.org</a></li>
                             <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
-                            <li><a href="#">You can modify those links in your config file</a></li>
                         </ul>
                 </div><!-- /.blogroll -->
                 <div class="social">
@@ -384,8 +168,7 @@ fit for purpose at any one moment in time</p>
                         <ul>
                             <li><a href="https://crustyassembler.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
 
-                            <li><a href="#">You can add links in your config file</a></li>
-                            <li><a href="#">Another social link</a></li>
+                            <li><a href="https://github.com/crustyassembler">github</a></li>
                         </ul>
                 </div><!-- /.social -->
         </section><!-- /#extras -->

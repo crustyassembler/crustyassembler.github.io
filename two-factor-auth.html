@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>2FA: What it is and why you (totally) need it</title>
+        <link rel="stylesheet" href="https://crustyassembler.github.io/theme/css/main.css" />
+        <link href="https://crustyassembler.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Erik's Cool Blog Atom Feed" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="https://crustyassembler.github.io/">Erik's Cool Blog </a></h1>
+                <nav><ul>
+                    <li class="active"><a href="https://crustyassembler.github.io/category/security.html">Security</a></li>
+                    <li><a href="https://crustyassembler.github.io/category/software-development.html">Software Development</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="https://crustyassembler.github.io/two-factor-auth.html" rel="bookmark"
+           title="Permalink to 2FA: What it is and why you (totally) need it">2FA: What it is and why you (totally) need it</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2016-11-07T08:04:00+00:00">
+                Published: Mon 07 November 2016
+        </abbr>
+		<br />
+        <abbr class="modified" title="2016-11-07T08:04:00+00:00">
+                Updated: Mon 07 November 2016
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="https://crustyassembler.github.io/author/erik-kaighan.html">Erik Kaighan</a>
+        </address>
+<p>In <a href="https://crustyassembler.github.io/category/security.html">Security</a>.</p>
+<p>tags: <a href="https://crustyassembler.github.io/tag/security.html">Security</a> </p>
+</footer><!-- /.post-info -->      <p>Two factor authentication is a method of securing computer systems by
+requiring any authorised user to provide two pieces of valid evidence
+in order to be granted access.</p>
+<p>The evidence required is generally defined as something the user knows
+and something the user has. Or to put it more elegantly,</p>
+<p><blockquote class="twitter-tweet" align="center"><a href="https://twitter.com/mattblaze/status/792443648520650752">Tweet of mattblaze/792443648520650752</a></blockquote></p>
+<p>While two factor authentication can make it more difficult for an
+attacker to access a computer system protected by two-factor
+authentication without access to the additional credentials, it may be
+possible for the attacker to harvest the required information via a
+range of social engineering attacks, one example of which being
+phishing.</p>
+<p>In a sophisticated spear-phishing attack, it would be possible for an
+attacker to harvest all of the required data, immediately utilising any
+required 2FA credentials, granting them immediate access to the
+compromised system.</p>
+<p>Two-factor authentication is also more susceptible to the loss of any
+required authentication tokens, especially when they take a pysical
+form, which is more likely to cause a legitimate user to be locked out
+of their own online accounts or computer systems.</p>
+<p>Due to the shortcomings of the implementations of current 2FA systems I
+generally avoid using it where I can. By utilising strong, unique
+sets of data to register each individual online identity I control, I
+severely limit the impact that the compromise of a single one of those
+identities is likely to have on any other.</p>
+<p>Whilst practicing good operational security can be a labourious task,
+it is becoming incresingly pertinent for even the average person to
+consider, as surveillence is more constant and relentless than ever
+before, and is only going to continue getting worse, and as such it is
+naive to think that enabling a two-factor authentication service
+controlled by yet another third party will help to secure your data at
+all and you generally won't find me singing its praises.</p><script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>blogroll</h2>
+                        <ul>
+                            <li><a href="http://getpelican.com/">Pelican</a></li>
+                            <li><a href="http://python.org/">Python.org</a></li>
+                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="https://crustyassembler.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                            <li><a href="https://github.com/crustyassembler">github</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

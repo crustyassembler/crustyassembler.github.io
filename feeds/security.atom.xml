@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Erik's Cool Blog</title><link href="https://crustyassembler.github.io/" rel="alternate"></link><link href="https://crustyassembler.github.io/feeds/security.atom.xml" rel="self"></link><id>https://crustyassembler.github.io/</id><updated>2016-11-07T08:04:00+00:00</updated><entry><title>2FA: What it is and why you (totally) need it</title><link href="https://crustyassembler.github.io/two-factor-auth.html" rel="alternate"></link><published>2016-11-07T08:04:00+00:00</published><updated>2016-11-07T08:04:00+00:00</updated><author><name>Erik Kaighan</name></author><id>tag:crustyassembler.github.io,2016-11-07:two-factor-auth.html</id><summary type="html">&lt;p&gt;Two factor authentication is a method of securing computer systems by
+requiring any authorised user to provide two pieces of valid evidence
+in order to be granted access.&lt;/p&gt;
+&lt;p&gt;The evidence required is generally defined as something the user knows
+and something the user has. Or to put it more elegantly,&lt;/p&gt;
+&lt;p&gt;&lt;blockquote class="twitter-tweet" align="center"&gt;&lt;a href="https://twitter.com/mattblaze/status/792443648520650752"&gt;Tweet of mattblaze/792443648520650752&lt;/a&gt;&lt;/blockquote&gt;&lt;/p&gt;
+&lt;p&gt;While two factor authentication can make it more difficult for an
+attacker to access a computer system protected by two-factor
+authentication without access to the additional credentials, it may be
+possible for the attacker to harvest the required information via a
+range of social engineering attacks, one example of which being
+phishing.&lt;/p&gt;
+&lt;p&gt;In a sophisticated spear-phishing attack, it would be possible for an
+attacker to harvest all of the required data, immediately utilising any
+required 2FA credentials, granting them immediate access to the
+compromised system.&lt;/p&gt;
+&lt;p&gt;Two-factor authentication is also more susceptible to the loss of any
+required authentication tokens, especially when they take a pysical
+form, which is more likely to cause a legitimate user to be locked out
+of their own online accounts or computer systems.&lt;/p&gt;
+&lt;p&gt;Due to the shortcomings of the implementations of current 2FA systems I
+generally avoid using it where I can. By utilising strong, unique
+sets of data to register each individual online identity I control, I
+severely limit the impact that the compromise of a single one of those
+identities is likely to have on any other.&lt;/p&gt;
+&lt;p&gt;Whilst practicing good operational security can be a labourious task,
+it is becoming incresingly pertinent for even the average person to
+consider, as surveillence is more constant and relentless than ever
+before, and is only going to continue getting worse, and as such it is
+naive to think that enabling a two-factor authentication service
+controlled by yet another third party will help to secure your data at
+all and you generally won't find me singing its praises.&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</summary><category term="Security"></category></entry></feed>
