@@ -1,5 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Erik's Cool Blog</title><link href="https://crustyassembler.github.io/" rel="alternate"></link><link href="https://crustyassembler.github.io/feeds/all.atom.xml" rel="self"></link><id>https://crustyassembler.github.io/</id><updated>2016-11-07T08:04:00+00:00</updated><entry><title>2FA: What it is and why you (totally) need it</title><link href="https://crustyassembler.github.io/two-factor-auth.html" rel="alternate"></link><published>2016-11-07T08:04:00+00:00</published><updated>2016-11-07T08:04:00+00:00</updated><author><name>Erik Kaighan</name></author><id>tag:crustyassembler.github.io,2016-11-07:two-factor-auth.html</id><summary type="html">&lt;p&gt;Two factor authentication is a method of securing computer systems by
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Erik loves ambiguity! 😂👌</title><link href="https://crustyassembler.github.io/" rel="alternate"></link><link href="https://crustyassembler.github.io/feeds/all.atom.xml" rel="self"></link><id>https://crustyassembler.github.io/</id><updated>2016-11-21T10:40:00+00:00</updated><entry><title>Lorem ipsum</title><link href="https://crustyassembler.github.io/lorem-ipsum.html" rel="alternate"></link><published>2016-11-21T10:40:00+00:00</published><updated>2016-11-21T10:40:00+00:00</updated><author><name>Erik Kaighan</name></author><id>tag:crustyassembler.github.io,2016-11-21:lorem-ipsum.html</id><summary type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</summary><category term="Lorem ipsum"></category></entry><entry><title>This thing called PRINCE2</title><link href="https://crustyassembler.github.io/intro2-prince2.html" rel="alternate"></link><published>2016-11-14T08:29:00+00:00</published><updated>2016-11-14T08:29:00+00:00</updated><author><name>Erik Kaighan</name></author><id>tag:crustyassembler.github.io,2016-11-14:intro2-prince2.html</id><summary type="html">&lt;p&gt;The PRINCE2 standard defines a number of roles and their associated
+responsibilities. This includes the project board, which is one of the defined
+groups encompassing the following roles:&lt;/p&gt;
+&lt;h2&gt;Executives&lt;/h2&gt;
+&lt;p&gt;An executive acts as a single point of accountability for a project and is
+responible for designing and apponting the Project Management Team. They develop
+the business case at the start of the project and is constantly evauluating the
+value of the project in relation to any invested resources. Executives are
+generally appointed by either Corporate or Programme Management.&lt;/p&gt;
+&lt;h2&gt;Senior Users&lt;/h2&gt;
+&lt;p&gt;The aim of the Senior User is to bridge the gap between the Users and the Project
+Management Team, providing valuable communication between the two distinct
+entities. Additionally, they provide the Project Team with a list of requirements
+to work towards and implement in their solutions, ensuring that the functionality
+of the project is in line with the needs of the Users in terms of both ease of
+use and quality. The responsibilities fulfilled by the Senior Users are
+comparable to those of a Business Advisor in the DSDM project life-cycle.&lt;/p&gt;
+&lt;h2&gt;Senior Suppliers&lt;/h2&gt;
+&lt;p&gt;The Senior Supplier is responsible for the delivery of any necessary resources
+required for the continuous progression of the project. The Senior Supplier can
+either come from the customer organisation or from a supplier. The role involves
+ensuring that the right tools, knowledge and equipment are available to those who
+need it during the development of the solution. Suppliers may be subcontracted or
+otherwise.&lt;/p&gt;
+&lt;p&gt;One project management technique adopted by the PRINCE2 paradigm is project
+assurance. It aims to provide an independent view of how the project is
+progressing from the perspective of the customer and any potential adopters of
+the produced solution. The aforementioned roles are all responsible for providing
+assurance in relation to their roles in the project.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The Executive is responsible for ensuring whether the business aspects of the
+project are correct and that the project continues to provide good value relative
+to investment.&lt;/li&gt;
+&lt;li&gt;The Senior User is responsible for ensuring that the project stays on track and
+continues to meet user requirements throughout the project. They also ensure that
+the end product will be fit for purpose.&lt;/li&gt;
+&lt;li&gt;The Senior Supplier is responsible for ensuring that the resources, tools and
+knowledge required by the whole team will be available throughout the development
+of the solution. They also evaluate whether the project's time and funding
+targets are on track to be met or not.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In addition to the Project Board and the individuals assigned to manage project
+assurance, there must also be a person or group responsible for Change
+Management. The individuals responsible for this are referred to as Change
+Authority.&lt;/p&gt;
+&lt;p&gt;The responsibilities of the Change Authority include approving or disapproving
+change requests.&lt;/p&gt;
+&lt;p&gt;As a whole, the project board is responsible for the success or failure of the
+project. They are responsible for providing any required resources or funds in
+order for the project to succeed in addition to support, direction and ensuring
+effective communication between the project team and the stakeholders. The roles
+fulfilled by the Project Board may be interpreted as those of Project Management
+when compared to alternative project SDLC implementations.&lt;/p&gt;
+&lt;p&gt;As PRINCE2 provides a structured approach to project management, defining a
+method of managing projects within a rigid predefined framework, it is very clear
+which responsibilities fall into any individual's domain within the project,
+making it extremely clear as to who is accountable for what.&lt;/p&gt;
+&lt;p&gt;The abundance of documentation required in order to correctly adhere to the
+PRINCE2 framework is beneficial in that it provides a degree of clarity
+throughout the project that no other framework provides, allowing anyone involved
+with the project to know at any one time exactly what is happening within the
+project. On the other hand, the sheer quantity of documentation required can 
+potentially be more than necessary, or even completely unrealistic depending on
+the scale of the project itself.&lt;/p&gt;
+&lt;p&gt;One disadvantage of PRINCE2 is its lack of accessibility. Due to the sheer scale
+of the specification, it is difficult, especially for those involved with smaller
+projects, to appropriately tailor the framework in order for it to work
+efficiently with their project. This is often an issue because the amount of
+documentation required to be produced as standard in order to adhere to the
+specification is often far more than is necessary or appropriate, especially for
+projects of a smaller size.&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</summary><category term="Management"></category></entry><entry><title>2FA: What it is and why you (totally) need it</title><link href="https://crustyassembler.github.io/two-factor-auth.html" rel="alternate"></link><published>2016-11-07T08:04:00+00:00</published><updated>2016-11-07T08:04:00+00:00</updated><author><name>Erik Kaighan</name></author><id>tag:crustyassembler.github.io,2016-11-07:two-factor-auth.html</id><summary type="html">&lt;p&gt;Two factor authentication is a method of securing computer systems by
 requiring any authorised user to provide two pieces of valid evidence
 in order to be granted access.&lt;/p&gt;
 &lt;p&gt;The evidence required is generally defined as something the user knows
@@ -318,7 +388,7 @@ fit for purpose at any one moment in time&lt;/p&gt;
 &lt;p&gt;Following the implementation of a solution in accordance with the operating model, maintenance is delegated to a disparate team solely responsible for providing customer support for solutions previously implemented. When change is called for, control is passed back to the development team as is appropriate and the entire cycle is repeated.&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</summary><category term="Work"></category><category term="Software Development"></category></entry><entry><title>My Website Journey</title><link href="https://crustyassembler.github.io/neocities-rip.html" rel="alternate"></link><published>2016-10-05T00:00:00+01:00</published><updated>2016-10-05T00:00:00+01:00</updated><author><name>Erik Kaighan</name></author><id>tag:crustyassembler.github.io,2016-10-05:neocities-rip.html</id><summary type="html">&lt;p&gt;Today I needed a template in order to accelerate the development process of a website I was required to produce under a relatively tight timescale.&lt;/p&gt;
 &lt;p&gt;I opted to use my own work rather than that produced my someone else and as such my journey to duplicate and strip down a website of my own design began.&lt;/p&gt;
 &lt;p&gt;The first step required duplicating the complete directory structure of the website, and populating it with the necessary files. Fortunately wget can be used to completely automate and simplify the entire process.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;wget -rnH https://te1eph0ne.neocities.org
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;wget -rnH https://te1eph0ne.neocities.org
 &lt;/pre&gt;&lt;/div&gt;
 
 
