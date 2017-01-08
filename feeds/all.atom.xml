@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Erik loves ambiguity! 😂👌</title><link href="https://crustyassembler.github.io/" rel="alternate"></link><link href="https://crustyassembler.github.io/feeds/all.atom.xml" rel="self"></link><id>https://crustyassembler.github.io/</id><updated>2016-11-21T11:22:00+00:00</updated><entry><title>Lorem ipsum</title><link href="https://crustyassembler.github.io/lorem-ipsum.html" rel="alternate"></link><published>2016-11-21T10:40:00+00:00</published><updated>2016-11-21T10:40:00+00:00</updated><author><name>Erik Kaighan</name></author><id>tag:crustyassembler.github.io,2016-11-21:lorem-ipsum.html</id><summary type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</summary><category term="Lorem ipsum"></category></entry><entry><title>This thing called PRINCE2</title><link href="https://crustyassembler.github.io/intro2-prince2.html" rel="alternate"></link><published>2016-11-21T11:22:00+00:00</published><updated>2016-11-21T11:22:00+00:00</updated><author><name>Erik Kaighan</name></author><id>tag:crustyassembler.github.io,2016-11-14:intro2-prince2.html</id><summary type="html">&lt;p&gt;The PRINCE2 standard defines a number of roles and their associated
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Erik loves ambiguity! 😂👌</title><link href="https://crustyassembler.github.io/" rel="alternate"></link><link href="https://crustyassembler.github.io/feeds/all.atom.xml" rel="self"></link><id>https://crustyassembler.github.io/</id><updated>2017-01-03T08:48:00+00:00</updated><entry><title>Enabling great teamwork</title><link href="https://crustyassembler.github.io/enabling-great-teamwork.html" rel="alternate"></link><published>2017-01-03T08:48:00+00:00</published><updated>2017-01-03T08:48:00+00:00</updated><author><name>Erik Kaighan</name></author><id>tag:crustyassembler.github.io,2017-01-03:enabling-great-teamwork.html</id><summary type="html">&lt;p&gt;Teams can employ a number of tactics to ensure maximum efficiency when working on
+projects.&lt;/p&gt;
+&lt;p&gt;Agile is a software development philosophy which aims to encourage good teamwork.
+It achieves this by documenting best practice in team-oriented software
+development. There are a number of frameworks employing Agile principles. One
+such framework; and perhaps one of the most popular, is called Scrum.&lt;/p&gt;
+&lt;p&gt;Project management frameworks such as Scrum aim to provide teams with a basis on
+which to further enhance the management of software development projects. Scrum
+defines a number of specific roles which are required to enable good teamwork,
+and in what fashion communication is to be conducted by team members.&lt;/p&gt;
+&lt;p&gt;One method employed by the Scrum framework is commonly referred to as a stand-up.
+Named as such because participants generally stand up for the duration of the 
+meeting, the thought behind it being that forcing the participants to stand 
+encourages brevity, allowing the stand-up to be as short as possible. A daily
+scrum is generally conducted early in the morning and is intended to establish
+goals for the day, and to promote good teamwork, allowing each member of the team
+to discuss any recent successes or challenges they have faced or currently are
+facing. My team has adopted this aspect of Scrum based on its communicative
+benefits, promoting great teamwork within the workplace.&lt;/p&gt;
+&lt;p&gt;Additionally, the office we work in is open plan, providing employees with groups
+of benches to sit at rather than more isolated cubicles. I believe that this has
+a positive impact on team morale and likely lends itself to overall increased
+team productivity as a consequence.&lt;/p&gt;
+&lt;p&gt;Our employers also ensure that all employees are provided with the necessary
+facilities required for each team member to say hydrated throughout the working
+day, with cold and boiling water available on tap. This is important as it is
+known that dehydration can have a negative impact on cognition. This includes
+mood, effort and concentration; potentially having an observable negative impact
+on a team's ability to function effectively. The study documented in
+&lt;a href="https://ncbi.nlm.nih.gov/pmc/articles/PMC4780815/"&gt;this article&lt;/a&gt;, which
+describes a study conducted on primary school students in Zambia which documents
+the effects of dehydration on cognitive performance and mood.&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</summary><category term="Great"></category><category term="Teamwork"></category></entry><entry><title>Lorem ipsum</title><link href="https://crustyassembler.github.io/lorem-ipsum.html" rel="alternate"></link><published>2016-11-21T10:40:00+00:00</published><updated>2016-11-21T10:40:00+00:00</updated><author><name>Erik Kaighan</name></author><id>tag:crustyassembler.github.io,2016-11-21:lorem-ipsum.html</id><summary type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</summary><category term="Lorem ipsum"></category></entry><entry><title>This thing called PRINCE2</title><link href="https://crustyassembler.github.io/intro2-prince2.html" rel="alternate"></link><published>2016-11-21T11:22:00+00:00</published><updated>2016-11-21T11:22:00+00:00</updated><author><name>Erik Kaighan</name></author><id>tag:crustyassembler.github.io,2016-11-14:intro2-prince2.html</id><summary type="html">&lt;p&gt;The PRINCE2 standard defines a number of roles and their associated
 responsibilities. This includes the project board, which is one of the defined
 groups encompassing the following roles:&lt;/p&gt;
 &lt;h2&gt;Executives&lt;/h2&gt;
